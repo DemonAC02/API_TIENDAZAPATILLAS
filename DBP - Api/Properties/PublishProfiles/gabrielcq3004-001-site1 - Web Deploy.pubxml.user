@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <History>False|2023-06-30T01:21:46.2324671Z;False|2023-06-29T20:20:50.5646259-05:00;True|2023-06-29T19:26:55.6614712-05:00;True|2023-06-29T19:17:18.5337438-05:00;False|2023-06-29T19:11:18.1593655-05:00;True|2023-06-29T19:09:51.7678446-05:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="database">
+      <Value>Data Source=DESKTOP-260EMDQ\SQLEXPRESS%3bInitial Catalog=ProyectoDBP%3bIntegrated Security=True%3bConnect Timeout=30%3bEncrypt=False%3bTrust Server Certificate=False%3bApplication Intent=ReadWrite%3bMulti Subnet Failover=False</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="DBP___Api.Models.ZapatillasC">
+      <Value>Data Source=SQL8005.site4now.net%3bInitial Catalog=db_a9ad45_gabrielcq3004%3bUser Id=db_a9ad45_gabrielcq3004_admin%3bPassword=dbpbd1234</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
